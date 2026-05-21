@@ -1,0 +1,37 @@
+[
+  {
+    "number": "CHG0000024",
+    "sys_id": "1766f1de47410200e90d87e8dee490f6",
+    "short_description": "Clear BGP sessions on a Cisco router",
+    "state": "3",
+    "risk": "High"
+  },
+  {
+    "number": "CHG0030005",
+    "sys_id": "45062bf1b7917210693cfeb0be11a96a",
+    "short_description": "Perform a controlled, scheduled operating system (OS) reboot of a specific server in the datacenter to apply updates or resolve instability issues.",
+    "state": "3",
+    "risk": "Unknown / Not Evaluated"
+  },
+  {
+    "number": "CHG0000003",
+    "sys_id": "46e9b4afa9fe198101026e122b85f442",
+    "short_description": "Roll back Windows SP2 patch",
+    "state": "3",
+    "risk": "Medium"
+  },
+  {
+    "number": "CHG0000027",
+    "sys_id": "543a39de47410200e90d87e8dee4908a",
+    "short_description": "Add network switch to cabinet",
+    "state": "3",
+    "risk": "High"
+  },
+  {
+    "number": "CHG0030007",
+    "sys_id": "5c904a06b791b210693cfeb0be11a9f2",
+    "short_description": "Reboot Server",
+    "state": "3",
+    "risk": "Unknown / Not Evaluated"
+  }
+]
