@@ -9,7 +9,7 @@ os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
 
 # Force CrewAI to route standard OpenAI endpoints locally if fallback occurs
 os.environ["OPENAI_API_KEY"] = "NA"
-os.environ["OPENAI_API_BASE"] = "http://localhost:11434/v1"
+os.environ["OPENAI_API_BASE"] = "<YOUR LOCAL HOST BASE>"  #format http://localhost:port/v1
 
 # Force output to use UTF-8
 os.environ["PYTHONIOENCODING"] = "utf-8"
