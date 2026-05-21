@@ -25,3 +25,23 @@ flowchart LR
     C --> D[run_itsm_agents.py]
     D --> E[Structured CAB Report]
     F["Ollama LLM (llama3.2:1b)"] <--> D
+
+```
+itsm-ai-edge-agent/
+├── src/
+│   ├── env_variables_setup.py
+│   ├── fetch_sn_data.py
+│   ├── read_pdi_servicenow_pyspark.py
+│   ├── run_itsm_agentsV2.py
+│   └── run_pipeline.py
+├── V1/
+│   └──run_itsm_agents.py
+├── example/
+│   └──snow.py
+├── data/                    # JSON outputs
+├── logs/                    # pipeline_execution.log
+├── requirements.txt
+├── README.md
+├── getting_started.md
+└── copilot_prompts.md
+```
