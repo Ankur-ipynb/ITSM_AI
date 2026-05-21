@@ -2,18 +2,17 @@
 
 **Fully local, privacy-first AI agent for ServiceNow ITSM Change Management.**
 
-An end-to-end offline system that extracts Change Requests from ServiceNow, processes them with PySpark, and generates professional Change Advisory Board (CAB) risk assessments using a local Ollama LLM + CrewAI.
+An end-to-end offline system that extracts live Change Requests from ServiceNow, processes them using PySpark, and generates structured Change Advisory Board (CAB) risk assessments using a local Ollama LLM powered by CrewAI.
 
 ---
 
-## ✨ Features
+## ✨ Key Highlights
 
-- **100% Local & Private** — Runs entirely on your machine (no data leaves your laptop)
-- **Live ServiceNow Integration** — Pulls real Change Requests from your PDI
-- **Enterprise-grade Processing** — PySpark data cleaning & transformation
-- **Structured AI Output** — Pydantic-validated CAB reports
-- **Production Orchestrator** — One-command pipeline with logging
-- **Zero Cost** — Uses free local models (Ollama)
+- **100% Local & Private** — No data leaves your machine
+- **Live ServiceNow Integration** — Works with your Personal Developer Instance (PDI)
+- **Hybrid Development** — Built using both **Agentic AI** (CrewAI + Ollama) and **GitHub Copilot**
+- **Production Orchestrator** — One-command pipeline with full logging
+- **Zero Cost** — Runs on commodity hardware
 
 ---
 
@@ -24,5 +23,5 @@ flowchart LR
     A[ServiceNow PDI] --> B[fetch_sn_data.py]
     B --> C[PySpark Processing]
     C --> D[run_itsm_agents.py]
-    D --> E[CAB Risk Report]
-    F[Ollama LLM] <--> D
+    D --> E[Structured CAB Report]
+    F["Ollama LLM (llama3.2:1b)"] <--> D
