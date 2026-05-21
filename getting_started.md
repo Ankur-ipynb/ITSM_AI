@@ -176,23 +176,3 @@ Monitor `pipeline_execution.log` for detailed execution trace.
 This foundation enables fully local, auditable, and extensible ITSM AI capabilities on commodity hardware.
 ```
 
-**Additional Recommendations for the Git Repository:**
-
-1. **Project Structure Suggestion:**
-   ```
-   itsm-ai-edge/
-   ├── src/
-   │   ├── fetch_sn_data.py
-   │   ├── process_pyspark_data.py
-   │   ├── run_itsm_agents.py
-   │   ├── run_pipeline.py
-   │   └── env_setup.py
-   ├── data/
-   │   ├── mock_servicenow_changes.json
-   │   └── pdi_servicenow_changes.json
-   ├── logs/
-   ├── .env.example
-   ├── requirements.txt
-   ├── README.md
-   └── getting_started.md   ← This file
-   ```
