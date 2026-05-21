@@ -15,7 +15,7 @@ def initialize_spark():
     os.environ['PATH'] = os.environ['PATH'] + ';' + '<YOUR HADOOP BIN PATH>'
     logging.info("Environment variables set.")
 
-    winutils_path = 'D:/hadoop/bin/winutils.exe'
+    winutils_path = '<PATH TO winutils.exe>'
     if not os.path.exists(winutils_path):
         logging.error("winutils.exe not found at " + winutils_path)
         raise FileNotFoundError("winutils.exe not found at " + winutils_path)
