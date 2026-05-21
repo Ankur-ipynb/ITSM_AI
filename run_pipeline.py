@@ -53,7 +53,7 @@ def main() -> int:
     configure_logging(log_file)
 
     scripts = [
-        root_dir / "fetch_sn_data.py",
+        root_dir / "fetch_sn_data.py", #replace with mock change generator script when missing service-now PDI
         root_dir / "read_pdi_servicenow_pyspark.py",
         root_dir / "run_itsm_agentsV2.py",
     ]
