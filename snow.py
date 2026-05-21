@@ -1,5 +1,5 @@
 """Generate a mock ServiceNow change_request JSON file."""
-
+''' USE BELOW SCRIPT WHEN MISSING SERVICE-NOW PDI TO MOCK '''
 import json
 
 
