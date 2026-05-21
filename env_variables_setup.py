@@ -8,6 +8,7 @@ def initialize_spark():
     logging.info("Python executable: " + sys.executable)
     logging.info("sys.path: " + str(sys.path))
 
+    #LOCAL PATH SETUP
     os.environ['SPARK_HOME'] = '<YOUR SPARK PATH>'
     os.environ['HADOOP_HOME'] = '<YOUR HADOOP PATH>'
     os.environ['JAVA_HOME'] = '<YOUR JAVA PATH>'
